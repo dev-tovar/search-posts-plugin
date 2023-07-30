@@ -8,19 +8,9 @@ Author: YECID TOVAR TOVAR
 
 function search_posts_form()
 {
-    // $form = '<form method="get" action="' . esc_url(home_url('/')) . '">';
-    // $form .= '<input type="text" name="s" placeholder="Buscar posts">';
-    // $form .= '<input type="submit" value="Buscar">';
-    // $form .= '</form>';
-
-
-    // $form = '<form id="search-posts-form" method="get" action="' . esc_url(home_url('/')) . '">';
-    // $form .= '<input type="text" name="s" id="search_keywords" placeholder="Buscar posts">';
-    // $form .= '<input type="submit" value="Buscar">';
-    // $form .= '</form>';
 
     $form = '<form id="search-posts-form" style="display:flex;" method="get" action="' . esc_url(home_url('/')) . '">';
-    $form .= '<input id="namanyay-search-box" name="s" size="40" type="text" placeholder="Buscar posts"/>';
+    $form .= '<input id="namanyay-search-box" name="s" type="text" placeholder="Buscar posts"/>';
     $form .= '<input id="namanyay-search-btn" value="Buscar" type="submit"/>';
     $form .= '</form>';
 
